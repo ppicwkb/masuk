@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (
       lower.includes("showwkbkode") ||      // WKB KODE
       lower.includes("showmonitoring") // MONITORING
-      lower.includes("https://ppicwkb.github.io/wkbkode/") 
+      lower.includes("/wkbkode/") 
       
     ) return;
 
@@ -103,4 +103,5 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.target === backdrop) hideLogin();
   });
 });
+
 
