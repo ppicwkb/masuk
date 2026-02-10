@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // abaikan card yang bebas login
     if (
       lower.includes("showwkbkode") ||      // WKB KODE
-      lower.includes("showmonitoring")  // MONITORING
+      lower.includes("showmonitoring") || // MONITORING
       lower.includes("https://ppicwkb.github.io/wkbkode/") 
       
     ) return;
@@ -103,6 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.target === backdrop) hideLogin();
   });
 });
+
 
 
 
